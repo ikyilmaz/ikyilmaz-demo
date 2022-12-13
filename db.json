@@ -1,83 +1,247 @@
 {
-    "items": [
+    "childrenHierarchy": [
         {
-            "id": 1,
-            "title": "Cars",
-            "childrenIds": [
-                4,
-                5,
-                6
+            "key": "equipment",
+            "text": "Ekipman",
+            "selectedIndex": 1,
+            "subReasons": [
+                {
+                    "key": "masa",
+                    "text": "Masa",
+                    "selectedIndex": 1
+                },
+                {
+                    "key": "sehpa",
+                    "text": "Sehpa",
+                    "selectedIndex": 2,
+                    "realReason": true
+                },
+                {
+                    "key": "dolap",
+                    "text": "Dolap",
+                    "selectedIndex": 3
+                },
+                {
+                    "key": "kirtasiye",
+                    "text": "Kırtasiye",
+                    "selectedIndex": 4
+                }
             ]
         },
         {
-            "id": 4,
-            "title": "Honda",
-            "childrenIds": [
-                7,
-                8,
-                9
+            "key": "environment",
+            "text": "Çevre",
+            "selectedIndex": 2,
+            "subReasons": [
+                {
+                    "key": "araba",
+                    "text": "Araba",
+                    "selectedIndex": 1
+                },
+                {
+                    "key": "ev",
+                    "text": "Ev",
+                    "selectedIndex": 2
+                },
+                {
+                    "key": "yol",
+                    "text": "Yol",
+                    "selectedIndex": 3,
+                    "realReason": true
+                }
             ]
         },
         {
-            "id": 7,
-            "title": "Civic",
-            "childrenIds": []
-        },
-        {
-            "id": 8,
-            "title": "City",
-            "childrenIds": []
-        },
-        {
-            "id": 9,
-            "title": "Jazz",
-            "childrenIds": []
-        },
-        {
-            "id": 5,
-            "title": "BMW",
-            "childrenIds": [
-                10,
-                11
+            "key": "management",
+            "text": "Yönetim",
+            "selectedIndex": 3,
+            "subReasons": [
+                {
+                    "key": "mudur",
+                    "text": "Müdür müdür müdür?",
+                    "selectedIndex": 1,
+                    "realReason": true
+                },
+                {
+                    "key": "ceo",
+                    "text": "CEO",
+                    "selectedIndex": 2
+                },
+                {
+                    "key": "baskan",
+                    "text": "Başkan"
+                },
+                {
+                    "key": "amir",
+                    "text": "Amir",
+                    "selectedIndex": 4
+                }
             ]
         },
         {
-            "id": 10,
-            "title": "320i",
-            "childrenIds": []
-        },
-        {
-            "id": 11,
-            "title": "116i",
-            "childrenIds": []
-        },
-        {
-            "id": 6,
-            "title": "Hyundai",
-            "childrenIds": []
-        },
-        {
-            "id": 2,
-            "title": "Films",
-            "childrenIds": [
-                12,
-                13
+            "key": "material",
+            "text": "Materyal",
+            "selectedIndex": 4,
+            "subReasons": [
+                {
+                    "key": "kalem",
+                    "text": "Kalem",
+                    "selectedIndex": 1
+                },
+                {
+                    "key": "silgi",
+                    "text": "Silgi",
+                    "selectedIndex": 2
+                },
+                {
+                    "key": "defter",
+                    "text": "Defter",
+                    "selectedIndex": 3
+                },
+                {
+                    "key": "kitap",
+                    "text": "Kitap",
+                    "selectedIndex": 4
+                }
             ]
         },
         {
-            "id": 12,
-            "title": "Fight Club",
-            "childrenIds": []
+            "key": "people",
+            "text": "İnsanlar",
+            "selectedIndex": 5,
+            "subReasons": []
         },
         {
-            "id": 13,
-            "title": "Bimser",
-            "childrenIds": []
+            "key": "process",
+            "text": "Süreç",
+            "selectedIndex": 6,
+            "subReasons": []
+        }
+    ],
+    "parentHierarchy": [
+        {
+            "key": "masa",
+            "text": "Masa",
+            "selectedIndex": 1,
+            "parentKey": "equipment"
         },
         {
-            "id": 3,
-            "title": "Cars",
-            "childrenIds": []
+            "key": "sehpa",
+            "text": "Sehpa",
+            "selectedIndex": 2,
+            "realReason": true,
+            "parentKey": "equipment"
+        },
+        {
+            "key": "dolap",
+            "text": "Dolap",
+            "selectedIndex": 3,
+            "parentKey": "equipment"
+        },
+        {
+            "key": "kirtasiye",
+            "text": "Kırtasiye",
+            "selectedIndex": 4,
+            "parentKey": "equipment"
+        },
+        {
+            "key": "equipment",
+            "text": "Ekipman",
+            "selectedIndex": 1
+        },
+        {
+            "key": "araba",
+            "text": "Araba",
+            "selectedIndex": 1,
+            "parentKey": "environment"
+        },
+        {
+            "key": "ev",
+            "text": "Ev",
+            "selectedIndex": 2,
+            "parentKey": "environment"
+        },
+        {
+            "key": "yol",
+            "text": "Yol",
+            "selectedIndex": 3,
+            "realReason": true,
+            "parentKey": "environment"
+        },
+        {
+            "key": "environment",
+            "text": "Çevre",
+            "selectedIndex": 2
+        },
+        {
+            "key": "mudur",
+            "text": "Müdür müdür müdür?",
+            "selectedIndex": 1,
+            "realReason": true,
+            "parentKey": "management"
+        },
+        {
+            "key": "ceo",
+            "text": "CEO",
+            "selectedIndex": 2,
+            "parentKey": "management"
+        },
+        {
+            "key": "baskan",
+            "text": "Başkan",
+            "parentKey": "management"
+        },
+        {
+            "key": "amir",
+            "text": "Amir",
+            "selectedIndex": 4,
+            "parentKey": "management"
+        },
+        {
+            "key": "management",
+            "text": "Yönetim",
+            "selectedIndex": 3
+        },
+        {
+            "key": "kalem",
+            "text": "Kalem",
+            "selectedIndex": 1,
+            "parentKey": "material"
+        },
+        {
+            "key": "silgi",
+            "text": "Silgi",
+            "selectedIndex": 2,
+            "parentKey": "material"
+        },
+        {
+            "key": "defter",
+            "text": "Defter",
+            "selectedIndex": 3,
+            "parentKey": "material"
+        },
+        {
+            "key": "kitap",
+            "text": "Kitap",
+            "selectedIndex": 4,
+            "parentKey": "material"
+        },
+        {
+            "key": "material",
+            "text": "Materyal",
+            "selectedIndex": 4
+        },
+        {
+            "key": "people",
+            "text": "İnsanlar",
+            "selectedIndex": 5,
+            "subReasons": []
+        },
+        {
+            "key": "process",
+            "text": "Süreç",
+            "selectedIndex": 6,
+            "subReasons": []
         }
     ]
 }
