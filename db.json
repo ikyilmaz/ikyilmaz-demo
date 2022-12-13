@@ -234,14 +234,12 @@
         {
             "key": "people",
             "text": "İnsanlar",
-            "selectedIndex": 5,
-            "subReasons": []
+            "selectedIndex": 5
         },
         {
             "key": "process",
             "text": "Süreç",
-            "selectedIndex": 6,
-            "subReasons": []
+            "selectedIndex": 6
         }
     ]
 }
