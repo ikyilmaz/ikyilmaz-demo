@@ -72,6 +72,14 @@
                     "text": "Başkan"
                 },
                 {
+                    "key": "yonetici",
+                    "text": "Yönetici"
+                },
+                {
+                    "key": "direktor",
+                    "text": "Direktör"
+                },
+                {
                     "key": "amir",
                     "text": "Amir",
                     "selectedIndex": 4
@@ -189,6 +197,16 @@
         {
             "key": "baskan",
             "text": "Başkan",
+            "parentKey": "management"
+        },
+        {
+            "key": "yonetici",
+            "text": "Yönetici",
+            "parentKey": "management"
+        },
+        {
+            "key": "direktor",
+            "text": "Direktör",
             "parentKey": "management"
         },
         {
