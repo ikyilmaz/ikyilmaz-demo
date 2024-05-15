@@ -315,5 +315,52 @@
       "bigNumber": 3344556677,
       "floatNumber": 33.4455
     }
+  ],
+  "multipleDataType": [
+    {
+      "id": 1,
+      "name": "Demo1",
+      "createdAt": "2022-01-01T00:00:00.000Z",
+      "updatedAt": "2022-01-01T00:00:00.000Z",
+      "largeNumber": 9007199254,
+      "percentage": 34.5,
+      "isActive": true
+    },
+    {
+      "id": 2,
+      "name": "Demo2",
+      "createdAt": "2022-02-02T00:00:00.000Z",
+      "updatedAt": "2022-02-02T00:00:00.000Z",
+      "largeNumber": 900719925,
+      "percentage": 45.6,
+      "isActive": false
+    },
+    {
+      "id": 3,
+      "name": "Demo3",
+      "createdAt": "2022-03-03T00:00:00.000Z",
+      "updatedAt": "2022-03-03T00:00:00.000Z",
+      "largeNumber": 900719925474,
+      "percentage": 56.7,
+      "isActive": true
+    },
+    {
+      "id": 4,
+      "name": "Demo4",
+      "createdAt": "2022-04-04T00:00:00.000Z",
+      "updatedAt": "2022-04-04T00:00:00.000Z",
+      "largeNumber": 90071,
+      "percentage": 67.8,
+      "isActive": false
+    },
+    {
+      "id": 5,
+      "name": "Demo5",
+      "createdAt": "2022-05-05T00:00:00.000Z",
+      "updatedAt": "2022-05-05T00:00:00.000Z",
+      "largeNumber": 90071992547409,
+      "percentage": 78.9,
+      "isActive": true
+    }
   ]
 }
