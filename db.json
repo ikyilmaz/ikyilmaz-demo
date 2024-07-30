@@ -368,5 +368,39 @@
       "percentage": 78.9,
       "isActive": true
     }
+  ],
+  "duplicateAndNull": [
+    {
+      "id": 1,
+      "name": "Demo1"
+    },
+    {
+      "id": 2,
+      "name": "Demo2"
+    },
+    {
+      "id": 3,
+      "name": "Demo3"
+    },
+    {
+      "id": 1,
+      "name": "Demo1"
+    },
+    {
+      "id": 2,
+      "name": "Demo2"
+    },
+    {
+      "id": 3,
+      "name": "Demo3"
+    },
+    {
+      "id": null,
+      "name": "nullName"
+    },
+    {
+      "id": null,
+      "name": "nullName"
+    }
   ]
 }
