@@ -295,33 +295,6 @@
       }
     }
   ],
-  "numbers": [
-    {
-      "id": 1,
-      "bigNumber": 1234567890,
-      "floatNumber": 12.3456
-    },
-    {
-      "id": 2,
-      "bigNumber": 9876543210,
-      "floatNumber": 98.7654
-    },
-    {
-      "id": 3,
-      "bigNumber": 1122334455,
-      "floatNumber": 11.2233
-    },
-    {
-      "id": 4,
-      "bigNumber": 6677889900,
-      "floatNumber": 66.7788
-    },
-    {
-      "id": 5,
-      "bigNumber": 3344556677,
-      "floatNumber": 33.4455
-    }
-  ],
   "multipleDataType": [
     {
       "id": 1,
@@ -379,12 +352,24 @@
       "name": "Demo2"
     },
     {
+      "id": 3,
+      "name": "Demo3"
+    },
+    {
       "id": 1,
       "name": "Demo1"
     },
     {
       "id": 2,
       "name": "Demo2"
+    },
+    {
+      "id": 3,
+      "name": "Demo3"
+    },
+    {
+      "id": null,
+      "name": "nullName"
     },
     {
       "id": null,
