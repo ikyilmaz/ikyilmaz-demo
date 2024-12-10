@@ -1,142 +1,319 @@
 {
-  "scheduler": [
+  "childrenHierarchy": [
     {
-      "title": "Website Re-Design Plan",
-      "startDate": "2024-10-03T06:30:00.000Z",
-      "endDate": "2024-10-03T08:30:00.000Z",
-      "id": 5504
+      "key": "equipment",
+      "text": "Ekipman",
+      "selectedIndex": 1,
+      "subReasons": [
+        {
+          "key": "masa",
+          "text": "Masa",
+          "selectedIndex": 1
+        },
+        {
+          "key": "sehpa",
+          "text": "Sehpa",
+          "selectedIndex": 2,
+          "realReason": true
+        },
+        {
+          "key": "dolap",
+          "text": "Dolap",
+          "selectedIndex": 3
+        },
+        {
+          "key": "kirtasiye",
+          "text": "Kırtasiye",
+          "selectedIndex": 4
+        }
+      ]
     },
     {
-      "title": "Book Flights to San Fran for Sales Trip",
-      "startDate": "2024-10-03T09:00:00.000Z",
-      "endDate": "2024-10-03T10:00:00.000Z",
-      "id": 4479
+      "key": "environment",
+      "text": "Çevre",
+      "selectedIndex": 2,
+      "subReasons": [
+        {
+          "key": "araba",
+          "text": "Araba",
+          "selectedIndex": 1
+        },
+        {
+          "key": "ev",
+          "text": "Ev",
+          "selectedIndex": 2
+        },
+        {
+          "key": "yol",
+          "text": "Yol",
+          "selectedIndex": 3,
+          "realReason": true
+        }
+      ]
     },
     {
-      "title": "Install New Router in Dev Room",
-      "startDate": "2024-10-03T11:30:00.000Z",
-      "endDate": "2024-10-03T12:30:00.000Z",
-      "id": 6694
+      "key": "management",
+      "text": "Yönetim",
+      "selectedIndex": 3,
+      "subReasons": [
+        {
+          "key": "mudur",
+          "text": "Müdür müdür müdür?",
+          "selectedIndex": 1,
+          "realReason": true
+        },
+        {
+          "key": "ceo",
+          "text": "CEO",
+          "selectedIndex": 2
+        },
+        {
+          "key": "baskan",
+          "text": "Başkan"
+        },
+        {
+          "key": "yonetici",
+          "text": "Yönetici"
+        },
+        {
+          "key": "direktor",
+          "text": "Direktör"
+        },
+        {
+          "key": "amir",
+          "text": "Amir",
+          "selectedIndex": 4
+        }
+      ]
     },
     {
-      "title": "Approve Personal Computer Upgrade Plan",
-      "startDate": "2024-10-04T07:00:00.000Z",
-      "endDate": "2024-10-04T08:00:00.000Z",
-      "id": 3337
+      "key": "material",
+      "text": "Materyal",
+      "selectedIndex": 4,
+      "subReasons": [
+        {
+          "key": "kalem",
+          "text": "Kalem",
+          "selectedIndex": 1
+        },
+        {
+          "key": "silgi",
+          "text": "Silgi",
+          "selectedIndex": 2
+        },
+        {
+          "key": "defter",
+          "text": "Defter",
+          "selectedIndex": 3
+        },
+        {
+          "key": "kitap",
+          "text": "Kitap",
+          "selectedIndex": 4
+        }
+      ]
     },
     {
-      "title": "Final Budget Review",
-      "startDate": "2024-10-04T09:00:00.000Z",
-      "endDate": "2024-10-04T10:35:00.000Z",
-      "id": 1423
+      "key": "people",
+      "text": "İnsanlar",
+      "selectedIndex": 5,
+      "subReasons": []
     },
     {
-      "title": "New Brochures",
-      "startDate": "2024-10-04T11:30:00.000Z",
-      "endDate": "2024-10-04T12:45:00.000Z",
-      "id": 4568
+      "key": "process",
+      "text": "Süreç",
+      "selectedIndex": 6,
+      "subReasons": []
+    }
+  ],
+  "parentHierarchy": [
+    {
+      "key": "masa",
+      "text": "Masa",
+      "selectedIndex": 1,
+      "parentKey": "equipment"
     },
     {
-      "title": "Install New Database",
-      "startDate": "2024-10-05T06:45:00.000Z",
-      "endDate": "2024-10-05T08:15:00.000Z",
-      "id": 5200
+      "key": "sehpa",
+      "text": "Sehpa",
+      "selectedIndex": 2,
+      "realReason": true,
+      "parentKey": "equipment"
     },
     {
-      "title": "Approve New Online Marketing Strategy",
-      "startDate": "2024-10-05T09:00:00.000Z",
-      "endDate": "2024-10-05T11:00:00.000Z",
-      "id": 5895
+      "key": "dolap",
+      "text": "Dolap",
+      "selectedIndex": 3,
+      "parentKey": "equipment"
     },
     {
-      "title": "Upgrade Personal Computers",
-      "startDate": "2024-10-05T12:15:00.000Z",
-      "endDate": "2024-10-05T13:30:00.000Z",
-      "id": 7935
+      "key": "kirtasiye",
+      "text": "Kırtasiye",
+      "selectedIndex": 4,
+      "parentKey": "equipment"
     },
     {
-      "title": "Customer Workshop",
-      "startDate": "2024-10-06T08:00:00.000Z",
-      "endDate": "2024-10-06T09:00:00.000Z",
-      "id": 9721
+      "key": "equipment",
+      "text": "Ekipman",
+      "selectedIndex": 1
     },
     {
-      "title": "Prepare 2015 Marketing Plan",
-      "startDate": "2024-10-07T08:00:00.000Z",
-      "endDate": "2024-10-07T10:30:00.000Z",
-      "id": 845
+      "key": "araba",
+      "text": "Araba",
+      "selectedIndex": 1,
+      "parentKey": "environment"
     },
     {
-      "title": "Brochure Design Review",
-      "startDate": "2024-10-07T11:00:00.000Z",
-      "endDate": "2024-10-07T12:30:00.000Z",
-      "id": 5540
+      "key": "ev",
+      "text": "Ev",
+      "selectedIndex": 2,
+      "parentKey": "environment"
     },
     {
-      "title": "Create Icons for Website",
-      "startDate": "2024-10-08T07:00:00.000Z",
-      "endDate": "2024-10-08T08:30:00.000Z",
-      "id": 7223
+      "key": "yol",
+      "text": "Yol",
+      "selectedIndex": 3,
+      "realReason": true,
+      "parentKey": "environment"
     },
     {
-      "title": "Upgrade Server Hardware",
-      "startDate": "2024-10-08T11:30:00.000Z",
-      "endDate": "2024-10-08T13:00:00.000Z",
-      "id": 9168
+      "key": "environment",
+      "text": "Çevre",
+      "selectedIndex": 2
     },
     {
-      "title": "Submit New Website Design",
-      "startDate": "2024-10-08T13:30:00.000Z",
-      "endDate": "2024-10-08T15:00:00.000Z",
-      "id": 6973
+      "key": "mudur",
+      "text": "Müdür müdür müdür?",
+      "selectedIndex": 1,
+      "realReason": true,
+      "parentKey": "management"
     },
     {
-      "title": "Launch New Website",
-      "startDate": "2024-10-09T09:20:00.000Z",
-      "endDate": "2024-10-09T11:00:00.000Z",
-      "id": 5989
+      "key": "ceo",
+      "text": "CEO",
+      "selectedIndex": 2,
+      "parentKey": "management"
     },
     {
-      "title": "Website Re-Design Plan",
-      "startDate": "2024-10-10T06:30:00.000Z",
-      "endDate": "2024-10-10T12:30:00.000Z",
-      "id": 9010
+      "key": "baskan",
+      "text": "Başkan",
+      "parentKey": "management"
     },
     {
-      "title": "Book Flights to San Fran for Sales Trip",
-      "startDate": "2024-10-11T09:00:00.000Z",
-      "endDate": "2024-10-11T10:00:00.000Z",
-      "id": 4789
+      "key": "yonetici",
+      "text": "Yönetici",
+      "parentKey": "management"
     },
     {
-      "title": "Install New Database",
-      "startDate": "2024-10-11T12:45:00.000Z",
-      "endDate": "2024-10-11T09:15:00.000Z",
-      "id": 7736
+      "key": "direktor",
+      "text": "Direktör",
+      "parentKey": "management"
     },
     {
-      "title": "Approve New Online Marketing Strategy",
-      "startDate": "2024-10-11T09:35:00.000Z",
-      "endDate": "2024-10-11T11:15:00.000Z",
-      "id": 4570
+      "key": "amir",
+      "text": "Amir",
+      "selectedIndex": 4,
+      "parentKey": "management"
     },
     {
-      "title": "Upgrade Personal Computers",
-      "startDate": "2024-10-12T12:15:00.000Z",
-      "endDate": "2024-10-12T17:30:00.000Z",
-      "id": 7949
+      "key": "management",
+      "text": "Yönetim",
+      "selectedIndex": 3
     },
     {
-      "title": "Prepare 2015 Marketing Plan",
-      "startDate": "2024-10-12T17:00:00.000Z",
-      "endDate": "2024-10-20T09:30:00.000Z",
-      "id": 7838
+      "key": "kalem",
+      "text": "Kalem",
+      "selectedIndex": 1,
+      "parentKey": "material"
     },
     {
-      "title": "Brochure Design Review",
-      "startDate": "2024-10-03T11:10:00.000Z",
-      "endDate": "2024-10-13T12:30:00.000Z",
-      "id": 6173
+      "key": "silgi",
+      "text": "Silgi",
+      "selectedIndex": 2,
+      "parentKey": "material"
+    },
+    {
+      "key": "defter",
+      "text": "Defter",
+      "selectedIndex": 3,
+      "parentKey": "material"
+    },
+    {
+      "key": "kitap",
+      "text": "Kitap",
+      "selectedIndex": 4,
+      "parentKey": "material"
+    },
+    {
+      "key": "material",
+      "text": "Materyal",
+      "selectedIndex": 4
+    },
+    {
+      "key": "people",
+      "text": "İnsanlar",
+      "selectedIndex": 5
+    },
+    {
+      "key": "process",
+      "text": "Süreç",
+      "selectedIndex": 6
+    }
+  ],
+  "displayExprML": [
+    {
+      "id": "turkish",
+      "text": {
+        "tr-TR": "Türkçe",
+        "en-US": "Turkish",
+        "ru-RU": "Tурецкий",
+        "az-AZ": "Türk"
+      }
+    },
+    {
+      "id": "car",
+      "text": {
+        "tr-TR": "Araba",
+        "en-US": "Car",
+        "ru-RU": "Машина",
+        "az-AZ": "Avtomobil"
+      }
+    },
+    {
+      "id": "home",
+      "text": {
+        "tr-TR": "Ev",
+        "en-US": "Home",
+        "ru-RU": "Дом",
+        "az-AZ": "Ev"
+      }
+    }
+  ],
+  "numbers": [
+    {
+      "id": 1,
+      "bigNumber": 1234567890,
+      "floatNumber": 12.3456
+    },
+    {
+      "id": 2,
+      "bigNumber": 9876543210,
+      "floatNumber": 98.7654
+    },
+    {
+      "id": 3,
+      "bigNumber": 1122334455,
+      "floatNumber": 11.2233
+    },
+    {
+      "id": 4,
+      "bigNumber": 6677889900,
+      "floatNumber": 66.7788
+    },
+    {
+      "id": 5,
+      "bigNumber": 3344556677,
+      "floatNumber": 33.4455
     }
   ]
 }
