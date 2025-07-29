@@ -155,7 +155,8 @@
     {
       "key": "equipment",
       "text": "Ekipman",
-      "selectedIndex": 1
+      "selectedIndex": 1,
+      "parentKey": ""
     },
     {
       "key": "araba",
@@ -179,7 +180,8 @@
     {
       "key": "environment",
       "text": "Çevre",
-      "selectedIndex": 2
+      "selectedIndex": 2,
+      "parentKey": ""
     },
     {
       "key": "mudur",
@@ -218,7 +220,8 @@
     {
       "key": "management",
       "text": "Yönetim",
-      "selectedIndex": 3
+      "selectedIndex": 3,
+      "parentKey": ""
     },
     {
       "key": "kalem",
@@ -247,17 +250,20 @@
     {
       "key": "material",
       "text": "Materyal",
-      "selectedIndex": 4
+      "selectedIndex": 4,
+      "parentKey": ""
     },
     {
       "key": "people",
       "text": "İnsanlar",
-      "selectedIndex": 5
+      "selectedIndex": 5,
+      "parentKey": ""
     },
     {
       "key": "process",
       "text": "Süreç",
-      "selectedIndex": 6
+      "selectedIndex": 6,
+      "parentKey": ""
     }
   ],
   "displayExprML": [
