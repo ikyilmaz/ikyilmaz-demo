@@ -153,6 +153,43 @@
       "parentKey": "equipment"
     },
     {
+      "key": "sandalye",
+      "text": "Sandalye",
+      "selectedIndex": 5,
+      "parentKey": "equipment"
+    },
+    {
+      "key": "lamba",
+      "text": "Lamba",
+      "selectedIndex": 6,
+      "parentKey": "equipment"
+    },
+    {
+      "key": "bilgisayar",
+      "text": "Bilgisayar",
+      "selectedIndex": 7,
+      "realReason": true,
+      "parentKey": "equipment"
+    },
+    {
+      "key": "yazici",
+      "text": "Yazıcı",
+      "selectedIndex": 8,
+      "parentKey": "equipment"
+    },
+    {
+      "key": "telefon",
+      "text": "Telefon",
+      "selectedIndex": 9,
+      "parentKey": "equipment"
+    },
+    {
+      "key": "projeksiyon",
+      "text": "Projeksiyon",
+      "selectedIndex": 10,
+      "parentKey": "equipment"
+    },
+    {
       "key": "equipment",
       "text": "Ekipman",
       "selectedIndex": 1,
@@ -178,6 +215,49 @@
       "parentKey": "environment"
     },
     {
+      "key": "park",
+      "text": "Park",
+      "selectedIndex": 4,
+      "parentKey": "environment"
+    },
+    {
+      "key": "köprü",
+      "text": "Köprü",
+      "selectedIndex": 5,
+      "parentKey": "environment"
+    },
+    {
+      "key": "nehir",
+      "text": "Nehir",
+      "selectedIndex": 6,
+      "parentKey": "environment"
+    },
+    {
+      "key": "orman",
+      "text": "Orman",
+      "selectedIndex": 7,
+      "realReason": true,
+      "parentKey": "environment"
+    },
+    {
+      "key": "dağ",
+      "text": "Dağ",
+      "selectedIndex": 8,
+      "parentKey": "environment"
+    },
+    {
+      "key": "çöl",
+      "text": "Çöl",
+      "selectedIndex": 9,
+      "parentKey": "environment"
+    },
+    {
+      "key": "deniz",
+      "text": "Deniz",
+      "selectedIndex": 10,
+      "parentKey": "environment"
+    },
+    {
       "key": "environment",
       "text": "Çevre",
       "selectedIndex": 2,
@@ -199,22 +279,50 @@
     {
       "key": "baskan",
       "text": "Başkan",
+      "selectedIndex": 3,
       "parentKey": "management"
     },
     {
       "key": "yonetici",
       "text": "Yönetici",
+      "selectedIndex": 4,
       "parentKey": "management"
     },
     {
       "key": "direktor",
       "text": "Direktör",
+      "selectedIndex": 5,
       "parentKey": "management"
     },
     {
       "key": "amir",
       "text": "Amir",
-      "selectedIndex": 4,
+      "selectedIndex": 6,
+      "parentKey": "management"
+    },
+    {
+      "key": "koordinator",
+      "text": "Koordinatör",
+      "selectedIndex": 7,
+      "realReason": true,
+      "parentKey": "management"
+    },
+    {
+      "key": "supervisor",
+      "text": "Supervisor",
+      "selectedIndex": 8,
+      "parentKey": "management"
+    },
+    {
+      "key": "lider",
+      "text": "Lider",
+      "selectedIndex": 9,
+      "parentKey": "management"
+    },
+    {
+      "key": "danisman",
+      "text": "Danışman",
+      "selectedIndex": 10,
       "parentKey": "management"
     },
     {
@@ -248,6 +356,43 @@
       "parentKey": "material"
     },
     {
+      "key": "canta",
+      "text": "Çanta",
+      "selectedIndex": 5,
+      "parentKey": "material"
+    },
+    {
+      "key": "ajanda",
+      "text": "Ajanda",
+      "selectedIndex": 6,
+      "parentKey": "material"
+    },
+    {
+      "key": "klasor",
+      "text": "Klasör",
+      "selectedIndex": 7,
+      "realReason": true,
+      "parentKey": "material"
+    },
+    {
+      "key": "makas",
+      "text": "Makas",
+      "selectedIndex": 8,
+      "parentKey": "material"
+    },
+    {
+      "key": "cizim_kagidi",
+      "text": "Çizim Kağıdı",
+      "selectedIndex": 9,
+      "parentKey": "material"
+    },
+    {
+      "key": "boya",
+      "text": "Boya",
+      "selectedIndex": 10,
+      "parentKey": "material"
+    },
+    {
       "key": "material",
       "text": "Materyal",
       "selectedIndex": 4,
@@ -263,6 +408,178 @@
       "key": "process",
       "text": "Süreç",
       "selectedIndex": 6,
+      "parentKey": ""
+    },
+    {
+      "key": "task1",
+      "text": "Görev 1",
+      "selectedIndex": 1,
+      "parentKey": "process"
+    },
+    {
+      "key": "task2",
+      "text": "Görev 2",
+      "selectedIndex": 2,
+      "parentKey": "process"
+    },
+    {
+      "key": "task3",
+      "text": "Görev 3",
+      "selectedIndex": 3,
+      "realReason": true,
+      "parentKey": "process"
+    },
+    {
+      "key": "task4",
+      "text": "Görev 4",
+      "selectedIndex": 4,
+      "parentKey": "process"
+    },
+    {
+      "key": "task5",
+      "text": "Görev 5",
+      "selectedIndex": 5,
+      "parentKey": "process"
+    },
+    {
+      "key": "task6",
+      "text": "Görev 6",
+      "selectedIndex": 6,
+      "parentKey": "process"
+    },
+    {
+      "key": "task7",
+      "text": "Görev 7",
+      "selectedIndex": 7,
+      "parentKey": "process"
+    },
+    {
+      "key": "task8",
+      "text": "Görev 8",
+      "selectedIndex": 8,
+      "parentKey": "process"
+    },
+    {
+      "key": "task9",
+      "text": "Görev 9",
+      "selectedIndex": 9,
+      "realReason": true,
+      "parentKey": "process"
+    },
+    {
+      "key": "task10",
+      "text": "Görev 10",
+      "selectedIndex": 10,
+      "parentKey": "process"
+    },
+    {
+      "key": "cat",
+      "text": "Kedi",
+      "selectedIndex": 1,
+      "parentKey": "animal"
+    },
+    {
+      "key": "dog",
+      "text": "Köpek",
+      "selectedIndex": 2,
+      "parentKey": "animal"
+    },
+    {
+      "key": "bird",
+      "text": "Kuş",
+      "selectedIndex": 3,
+      "realReason": true,
+      "parentKey": "animal"
+    },
+    {
+      "key": "horse",
+      "text": "At",
+      "selectedIndex": 4,
+      "parentKey": "animal"
+    },
+    {
+      "key": "lion",
+      "text": "Aslan",
+      "selectedIndex": 5,
+      "parentKey": "animal"
+    },
+    {
+      "key": "tiger",
+      "text": "Kaplan",
+      "selectedIndex": 6,
+      "parentKey": "animal"
+    },
+    {
+      "key": "fish",
+      "text": "Balık",
+      "selectedIndex": 7,
+      "parentKey": "animal"
+    },
+    {
+      "key": "snake",
+      "text": "Yılan",
+      "selectedIndex": 8,
+      "parentKey": "animal"
+    },
+    {
+      "key": "animal",
+      "text": "Hayvan",
+      "selectedIndex": 7,
+      "parentKey": ""
+    },
+    {
+      "key": "apple",
+      "text": "Elma",
+      "selectedIndex": 1,
+      "parentKey": "food"
+    },
+    {
+      "key": "bread",
+      "text": "Ekmek",
+      "selectedIndex": 2,
+      "parentKey": "food"
+    },
+    {
+      "key": "milk",
+      "text": "Süt",
+      "selectedIndex": 3,
+      "parentKey": "food"
+    },
+    {
+      "key": "meat",
+      "text": "Et",
+      "selectedIndex": 4,
+      "parentKey": "food"
+    },
+    {
+      "key": "cheese",
+      "text": "Peynir",
+      "selectedIndex": 5,
+      "realReason": true,
+      "parentKey": "food"
+    },
+    {
+      "key": "egg",
+      "text": "Yumurta",
+      "selectedIndex": 6,
+      "parentKey": "food"
+    },
+    {
+      "key": "rice",
+      "text": "Pirinç",
+      "selectedIndex": 7,
+      "parentKey": "food"
+    },
+    {
+      "key": "pasta",
+      "text": "Makarna",
+      "selectedIndex": 8,
+      "parentKey": "food"
+    },
+    {
+      "key": "food",
+      "text": "Yiyecek",
+      "selectedIndex": 8,
       "parentKey": ""
     }
   ],
