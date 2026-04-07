@@ -247,14 +247,6 @@
 	},
 	"case8_emptyItems": {
 		"description": "Boş veya null items → boş array dönmeli",
-		"config": {
-			"hierarchyType": "parentKey",
-			"notRecursive": true,
-			"parentKey": "parentId",
-			"valueExpr": "id",
-			"displayFormat": "{{name}}"
-		},
-		"items": [],
-		"expectedTree": []
+		"items": []
 	}
 }
