@@ -1,642 +1,260 @@
 {
-  "childrenHierarchy": [
-    {
-      "key": "equipment",
-      "text": "Ekipman",
-      "selectedIndex": 1,
-      "subReasons": [
-        {
-          "key": "masa",
-          "text": "Masa",
-          "selectedIndex": 1
-        },
-        {
-          "key": "sehpa",
-          "text": "Sehpa",
-          "selectedIndex": 2,
-          "realReason": true
-        },
-        {
-          "key": "dolap",
-          "text": "Dolap",
-          "selectedIndex": 3
-        },
-        {
-          "key": "kirtasiye",
-          "text": "Kırtasiye",
-          "selectedIndex": 4
-        }
-      ]
-    },
-    {
-      "key": "environment",
-      "text": "Çevre",
-      "selectedIndex": 2,
-      "subReasons": [
-        {
-          "key": "araba",
-          "text": "Araba",
-          "selectedIndex": 1
-        },
-        {
-          "key": "ev",
-          "text": "Ev",
-          "selectedIndex": 2
-        },
-        {
-          "key": "yol",
-          "text": "Yol",
-          "selectedIndex": 3,
-          "realReason": true
-        }
-      ]
-    },
-    {
-      "key": "management",
-      "text": "Yönetim",
-      "selectedIndex": 3,
-      "subReasons": [
-        {
-          "key": "mudur",
-          "text": "Müdür müdür müdür?",
-          "selectedIndex": 1,
-          "realReason": true
-        },
-        {
-          "key": "ceo",
-          "text": "CEO",
-          "selectedIndex": 2
-        },
-        {
-          "key": "baskan",
-          "text": "Başkan"
-        },
-        {
-          "key": "yonetici",
-          "text": "Yönetici"
-        },
-        {
-          "key": "direktor",
-          "text": "Direktör"
-        },
-        {
-          "key": "amir",
-          "text": "Amir",
-          "selectedIndex": 4
-        }
-      ]
-    },
-    {
-      "key": "material",
-      "text": "Materyal",
-      "selectedIndex": 4,
-      "subReasons": [
-        {
-          "key": "kalem",
-          "text": "Kalem",
-          "selectedIndex": 1
-        },
-        {
-          "key": "silgi",
-          "text": "Silgi",
-          "selectedIndex": 2
-        },
-        {
-          "key": "defter",
-          "text": "Defter",
-          "selectedIndex": 3
-        },
-        {
-          "key": "kitap",
-          "text": "Kitap",
-          "selectedIndex": 4
-        }
-      ]
-    },
-    {
-      "key": "people",
-      "text": "İnsanlar",
-      "selectedIndex": 5,
-      "subReasons": []
-    },
-    {
-      "key": "process",
-      "text": "Süreç",
-      "selectedIndex": 6,
-      "subReasons": []
-    }
-  ],
-  "parentHierarchy": [
-    {
-      "key": "masa",
-      "text": "Masa",
-      "selectedIndex": 1,
-      "parentKey": "equipment"
-    },
-    {
-      "key": "sehpa",
-      "text": "Sehpa",
-      "selectedIndex": 2,
-      "realReason": true,
-      "parentKey": "equipment"
-    },
-    {
-      "key": "dolap",
-      "text": "Dolap",
-      "selectedIndex": 3,
-      "parentKey": "equipment"
-    },
-    {
-      "key": "kirtasiye",
-      "text": "Kırtasiye",
-      "selectedIndex": 4,
-      "parentKey": "equipment"
-    },
-    {
-      "key": "sandalye",
-      "text": "Sandalye",
-      "selectedIndex": 5,
-      "parentKey": "equipment"
-    },
-    {
-      "key": "lamba",
-      "text": "Lamba",
-      "selectedIndex": 6,
-      "parentKey": "equipment"
-    },
-    {
-      "key": "bilgisayar",
-      "text": "Bilgisayar",
-      "selectedIndex": 7,
-      "realReason": true,
-      "parentKey": "equipment"
-    },
-    {
-      "key": "yazici",
-      "text": "Yazıcı",
-      "selectedIndex": 8,
-      "parentKey": "equipment"
-    },
-    {
-      "key": "telefon",
-      "text": "Telefon",
-      "selectedIndex": 9,
-      "parentKey": "equipment"
-    },
-    {
-      "key": "projeksiyon",
-      "text": "Projeksiyon",
-      "selectedIndex": 10,
-      "parentKey": "equipment"
-    },
-    {
-      "key": "equipment",
-      "text": "Ekipman",
-      "selectedIndex": 1,
-      "parentKey": ""
-    },
-    {
-      "key": "araba",
-      "text": "Araba",
-      "selectedIndex": 1,
-      "parentKey": "environment"
-    },
-    {
-      "key": "ev",
-      "text": "Ev",
-      "selectedIndex": 2,
-      "parentKey": "environment"
-    },
-    {
-      "key": "yol",
-      "text": "Yol",
-      "selectedIndex": 3,
-      "realReason": true,
-      "parentKey": "environment"
-    },
-    {
-      "key": "park",
-      "text": "Park",
-      "selectedIndex": 4,
-      "parentKey": "environment"
-    },
-    {
-      "key": "köprü",
-      "text": "Köprü",
-      "selectedIndex": 5,
-      "parentKey": "environment"
-    },
-    {
-      "key": "nehir",
-      "text": "Nehir",
-      "selectedIndex": 6,
-      "parentKey": "environment"
-    },
-    {
-      "key": "orman",
-      "text": "Orman",
-      "selectedIndex": 7,
-      "realReason": true,
-      "parentKey": "environment"
-    },
-    {
-      "key": "dağ",
-      "text": "Dağ",
-      "selectedIndex": 8,
-      "parentKey": "environment"
-    },
-    {
-      "key": "çöl",
-      "text": "Çöl",
-      "selectedIndex": 9,
-      "parentKey": "environment"
-    },
-    {
-      "key": "deniz",
-      "text": "Deniz",
-      "selectedIndex": 10,
-      "parentKey": "environment"
-    },
-    {
-      "key": "environment",
-      "text": "Çevre",
-      "selectedIndex": 2,
-      "parentKey": ""
-    },
-    {
-      "key": "mudur",
-      "text": "Müdür müdür müdür?",
-      "selectedIndex": 1,
-      "realReason": true,
-      "parentKey": "management"
-    },
-    {
-      "key": "ceo",
-      "text": "CEO",
-      "selectedIndex": 2,
-      "parentKey": "management"
-    },
-    {
-      "key": "baskan",
-      "text": "Başkan",
-      "selectedIndex": 3,
-      "parentKey": "management"
-    },
-    {
-      "key": "yonetici",
-      "text": "Yönetici",
-      "selectedIndex": 4,
-      "parentKey": "management"
-    },
-    {
-      "key": "direktor",
-      "text": "Direktör",
-      "selectedIndex": 5,
-      "parentKey": "management"
-    },
-    {
-      "key": "amir",
-      "text": "Amir",
-      "selectedIndex": 6,
-      "parentKey": "management"
-    },
-    {
-      "key": "koordinator",
-      "text": "Koordinatör",
-      "selectedIndex": 7,
-      "realReason": true,
-      "parentKey": "management"
-    },
-    {
-      "key": "supervisor",
-      "text": "Supervisor",
-      "selectedIndex": 8,
-      "parentKey": "management"
-    },
-    {
-      "key": "lider",
-      "text": "Lider",
-      "selectedIndex": 9,
-      "parentKey": "management"
-    },
-    {
-      "key": "danisman",
-      "text": "Danışman",
-      "selectedIndex": 10,
-      "parentKey": "management"
-    },
-    {
-      "key": "management",
-      "text": "Yönetim",
-      "selectedIndex": 3,
-      "parentKey": ""
-    },
-    {
-      "key": "kalem",
-      "text": "Kalem",
-      "selectedIndex": 1,
-      "parentKey": "material"
-    },
-    {
-      "key": "silgi",
-      "text": "Silgi",
-      "selectedIndex": 2,
-      "parentKey": "material"
-    },
-    {
-      "key": "defter",
-      "text": "Defter",
-      "selectedIndex": 3,
-      "parentKey": "material"
-    },
-    {
-      "key": "kitap",
-      "text": "Kitap",
-      "selectedIndex": 4,
-      "parentKey": "material"
-    },
-    {
-      "key": "canta",
-      "text": "Çanta",
-      "selectedIndex": 5,
-      "parentKey": "material"
-    },
-    {
-      "key": "ajanda",
-      "text": "Ajanda",
-      "selectedIndex": 6,
-      "parentKey": "material"
-    },
-    {
-      "key": "klasor",
-      "text": "Klasör",
-      "selectedIndex": 7,
-      "realReason": true,
-      "parentKey": "material"
-    },
-    {
-      "key": "makas",
-      "text": "Makas",
-      "selectedIndex": 8,
-      "parentKey": "material"
-    },
-    {
-      "key": "cizim_kagidi",
-      "text": "Çizim Kağıdı",
-      "selectedIndex": 9,
-      "parentKey": "material"
-    },
-    {
-      "key": "boya",
-      "text": "Boya",
-      "selectedIndex": 10,
-      "parentKey": "material"
-    },
-    {
-      "key": "material",
-      "text": "Materyal",
-      "selectedIndex": 4,
-      "parentKey": ""
-    },
-    {
-      "key": "people",
-      "text": "İnsanlar",
-      "selectedIndex": 5,
-      "parentKey": ""
-    },
-    {
-      "key": "process",
-      "text": "Süreç",
-      "selectedIndex": 6,
-      "parentKey": ""
-    },
-    {
-      "key": "task1",
-      "text": "Görev 1",
-      "selectedIndex": 1,
-      "parentKey": "process"
-    },
-    {
-      "key": "task2",
-      "text": "Görev 2",
-      "selectedIndex": 2,
-      "parentKey": "process"
-    },
-    {
-      "key": "task3",
-      "text": "Görev 3",
-      "selectedIndex": 3,
-      "realReason": true,
-      "parentKey": "process"
-    },
-    {
-      "key": "task4",
-      "text": "Görev 4",
-      "selectedIndex": 4,
-      "parentKey": "process"
-    },
-    {
-      "key": "task5",
-      "text": "Görev 5",
-      "selectedIndex": 5,
-      "parentKey": "process"
-    },
-    {
-      "key": "task6",
-      "text": "Görev 6",
-      "selectedIndex": 6,
-      "parentKey": "process"
-    },
-    {
-      "key": "task7",
-      "text": "Görev 7",
-      "selectedIndex": 7,
-      "parentKey": "process"
-    },
-    {
-      "key": "task8",
-      "text": "Görev 8",
-      "selectedIndex": 8,
-      "parentKey": "process"
-    },
-    {
-      "key": "task9",
-      "text": "Görev 9",
-      "selectedIndex": 9,
-      "realReason": true,
-      "parentKey": "process"
-    },
-    {
-      "key": "task10",
-      "text": "Görev 10",
-      "selectedIndex": 10,
-      "parentKey": "process"
-    },
-    {
-      "key": "cat",
-      "text": "Kedi",
-      "selectedIndex": 1,
-      "parentKey": "animal"
-    },
-    {
-      "key": "dog",
-      "text": "Köpek",
-      "selectedIndex": 2,
-      "parentKey": "animal"
-    },
-    {
-      "key": "bird",
-      "text": "Kuş",
-      "selectedIndex": 3,
-      "realReason": true,
-      "parentKey": "animal"
-    },
-    {
-      "key": "horse",
-      "text": "At",
-      "selectedIndex": 4,
-      "parentKey": "animal"
-    },
-    {
-      "key": "lion",
-      "text": "Aslan",
-      "selectedIndex": 5,
-      "parentKey": "animal"
-    },
-    {
-      "key": "tiger",
-      "text": "Kaplan",
-      "selectedIndex": 6,
-      "parentKey": "animal"
-    },
-    {
-      "key": "fish",
-      "text": "Balık",
-      "selectedIndex": 7,
-      "parentKey": "animal"
-    },
-    {
-      "key": "snake",
-      "text": "Yılan",
-      "selectedIndex": 8,
-      "parentKey": "animal"
-    },
-    {
-      "key": "animal",
-      "text": "Hayvan",
-      "selectedIndex": 7,
-      "parentKey": ""
-    },
-    {
-      "key": "apple",
-      "text": "Elma",
-      "selectedIndex": 1,
-      "parentKey": "food"
-    },
-    {
-      "key": "bread",
-      "text": "Ekmek",
-      "selectedIndex": 2,
-      "parentKey": "food"
-    },
-    {
-      "key": "milk",
-      "text": "Süt",
-      "selectedIndex": 3,
-      "parentKey": "food"
-    },
-    {
-      "key": "meat",
-      "text": "Et",
-      "selectedIndex": 4,
-      "parentKey": "food"
-    },
-    {
-      "key": "cheese",
-      "text": "Peynir",
-      "selectedIndex": 5,
-      "realReason": true,
-      "parentKey": "food"
-    },
-    {
-      "key": "egg",
-      "text": "Yumurta",
-      "selectedIndex": 6,
-      "parentKey": "food"
-    },
-    {
-      "key": "rice",
-      "text": "Pirinç",
-      "selectedIndex": 7,
-      "parentKey": "food"
-    },
-    {
-      "key": "pasta",
-      "text": "Makarna",
-      "selectedIndex": 8,
-      "parentKey": "food"
-    },
-    {
-      "key": "food",
-      "text": "Yiyecek",
-      "selectedIndex": 8,
-      "parentKey": ""
-    }
-  ],
-  "displayExprML": [
-    {
-      "id": "turkish",
-      "text": {
-        "tr-TR": "Türkçe",
-        "en-US": "Turkish",
-        "ru-RU": "Tурецкий",
-        "az-AZ": "Türk"
-      }
-    },
-    {
-      "id": "car",
-      "text": {
-        "tr-TR": "Araba",
-        "en-US": "Car",
-        "ru-RU": "Машина",
-        "az-AZ": "Avtomobil"
-      }
-    },
-    {
-      "id": "home",
-      "text": {
-        "tr-TR": "Ev",
-        "en-US": "Home",
-        "ru-RU": "Дом",
-        "az-AZ": "Ev"
-      }
-    }
-  ],
-  "numbers": [
-    {
-      "id": 1,
-      "bigNumber": 1234567890,
-      "floatNumber": 12.3456
-    },
-    {
-      "id": 2,
-      "bigNumber": 9876543210,
-      "floatNumber": 98.7654
-    },
-    {
-      "id": 3,
-      "bigNumber": 1122334455,
-      "floatNumber": 11.2233
-    },
-    {
-      "id": 4,
-      "bigNumber": 6677889900,
-      "floatNumber": 66.7788
-    },
-    {
-      "id": 5,
-      "bigNumber": 3344556677,
-      "floatNumber": 33.4455
-    }
-  ]
+	"case1_parentKey_notRecursiveTrue": {
+		"description": "hierarchyType=parentKey, notRecursive=true → parentKey alanında parent'ın ID'si var",
+		"items": [
+			{ "id": "1", "name": "Türkiye", "parentId": null },
+			{ "id": "2", "name": "İstanbul", "parentId": "1" },
+			{ "id": "3", "name": "Ankara", "parentId": "1" },
+			{ "id": "4", "name": "İzmir", "parentId": "1" },
+			{ "id": "5", "name": "Kadıköy", "parentId": "2" },
+			{ "id": "6", "name": "Beşiktaş", "parentId": "2" },
+			{ "id": "7", "name": "Üsküdar", "parentId": "2" },
+			{ "id": "8", "name": "Çankaya", "parentId": "3" },
+			{ "id": "9", "name": "Keçiören", "parentId": "3" },
+			{ "id": "10", "name": "Caferağa", "parentId": "5" },
+			{ "id": "11", "name": "Osmanağa", "parentId": "5" },
+			{ "id": "12", "name": "Rasimpaşa", "parentId": "5" },
+			{ "id": "13", "name": "Levent", "parentId": "6" },
+			{ "id": "14", "name": "Etiler", "parentId": "6" },
+			{ "id": "15", "name": "Caferağa Sok. No:1", "parentId": "10" },
+			{ "id": "16", "name": "Caferağa Sok. No:2", "parentId": "10" },
+			{ "id": "17", "name": "Almanya", "parentId": null },
+			{ "id": "18", "name": "Berlin", "parentId": "17" },
+			{ "id": "19", "name": "Münih", "parentId": "17" },
+			{ "id": "20", "name": "Kreuzberg", "parentId": "18" },
+			{ "id": "21", "name": "Mitte", "parentId": "18" },
+			{ "id": "22", "name": "Japonya", "parentId": null },
+			{ "id": "23", "name": "Tokyo", "parentId": "22" },
+			{ "id": "24", "name": "Shibuya", "parentId": "23" },
+			{ "id": "25", "name": "Shinjuku", "parentId": "23" }
+		]
+	},
+	"case2_parentKey_notRecursiveFalse": {
+		"description": "hierarchyType=parentKey, notRecursive=false → parentKey alanında parent objesinin kendisi var",
+		"items": [
+			{ "id": "1", "name": "Elektronik", "parent": null },
+			{ "id": "2", "name": "Bilgisayar", "parent": { "id": "1", "name": "Elektronik" } },
+			{ "id": "3", "name": "Telefon", "parent": { "id": "1", "name": "Elektronik" } },
+			{ "id": "4", "name": "Dizüstü", "parent": { "id": "2", "name": "Bilgisayar" } },
+			{ "id": "5", "name": "Masaüstü", "parent": { "id": "2", "name": "Bilgisayar" } },
+			{ "id": "6", "name": "Gaming Laptop", "parent": { "id": "4", "name": "Dizüstü" } },
+			{ "id": "7", "name": "Ultrabook", "parent": { "id": "4", "name": "Dizüstü" } },
+			{ "id": "8", "name": "RTX Serisi", "parent": { "id": "6", "name": "Gaming Laptop" } },
+			{ "id": "9", "name": "GTX Serisi", "parent": { "id": "6", "name": "Gaming Laptop" } },
+			{ "id": "10", "name": "Android", "parent": { "id": "3", "name": "Telefon" } },
+			{ "id": "11", "name": "iOS", "parent": { "id": "3", "name": "Telefon" } },
+			{ "id": "12", "name": "Samsung", "parent": { "id": "10", "name": "Android" } },
+			{ "id": "13", "name": "Xiaomi", "parent": { "id": "10", "name": "Android" } },
+			{ "id": "14", "name": "Galaxy S", "parent": { "id": "12", "name": "Samsung" } },
+			{ "id": "15", "name": "Galaxy A", "parent": { "id": "12", "name": "Samsung" } },
+			{ "id": "16", "name": "Giyim", "parent": null },
+			{ "id": "17", "name": "Erkek", "parent": { "id": "16", "name": "Giyim" } },
+			{ "id": "18", "name": "Kadın", "parent": { "id": "16", "name": "Giyim" } },
+			{ "id": "19", "name": "Tişört", "parent": { "id": "17", "name": "Erkek" } },
+			{ "id": "20", "name": "Pantolon", "parent": { "id": "17", "name": "Erkek" } }
+		]
+	},
+	"case3_childrenKey_notRecursiveTrue": {
+		"description": "hierarchyType=childrenKey, notRecursive=true → childrenKey alanında child ID array'i var",
+		"items": [
+			{ "id": "1", "name": "CEO", "childIds": ["2", "3", "4"] },
+			{ "id": "2", "name": "CTO", "childIds": ["5", "6"] },
+			{ "id": "3", "name": "CFO", "childIds": ["7"] },
+			{ "id": "4", "name": "COO", "childIds": ["8", "9"] },
+			{ "id": "5", "name": "Backend Lead", "childIds": ["10", "11"] },
+			{ "id": "6", "name": "Frontend Lead", "childIds": ["12", "13"] },
+			{ "id": "7", "name": "Muhasebe Müdürü", "childIds": ["14"] },
+			{ "id": "8", "name": "Operasyon Müdürü", "childIds": ["15", "16"] },
+			{ "id": "9", "name": "Lojistik Müdürü", "childIds": [] },
+			{ "id": "10", "name": "Senior Backend Dev", "childIds": ["17", "18"] },
+			{ "id": "11", "name": "Mid Backend Dev", "childIds": [] },
+			{ "id": "12", "name": "Senior Frontend Dev", "childIds": ["19"] },
+			{ "id": "13", "name": "Mid Frontend Dev", "childIds": [] },
+			{ "id": "14", "name": "Muhasebeci", "childIds": [] },
+			{ "id": "15", "name": "Saha Sorumlusu A", "childIds": [] },
+			{ "id": "16", "name": "Saha Sorumlusu B", "childIds": [] },
+			{ "id": "17", "name": "Junior Dev 1", "childIds": [] },
+			{ "id": "18", "name": "Junior Dev 2", "childIds": [] },
+			{ "id": "19", "name": "Intern", "childIds": [] }
+		]
+	},
+	"case4_childrenKey_notRecursiveFalse": {
+		"description": "hierarchyType=childrenKey, notRecursive=false → childrenKey alanında child objeleri var (nested)",
+		"items": [
+			{
+				"id": "1",
+				"name": "Dosya Sistemi",
+				"subItems": [
+					{
+						"id": "2",
+						"name": "src",
+						"subItems": [
+							{
+								"id": "5",
+								"name": "components",
+								"subItems": [
+									{
+										"id": "10",
+										"name": "Button",
+										"subItems": [
+											{ "id": "15", "name": "index.tsx", "subItems": [] },
+											{ "id": "16", "name": "styles.scss", "subItems": [] },
+											{ "id": "17", "name": "Button.test.ts", "subItems": [] }
+										]
+									},
+									{
+										"id": "11",
+										"name": "Modal",
+										"subItems": [
+											{ "id": "18", "name": "index.tsx", "subItems": [] },
+											{ "id": "19", "name": "styles.scss", "subItems": [] }
+										]
+									}
+								]
+							},
+							{
+								"id": "6",
+								"name": "utils",
+								"subItems": [
+									{ "id": "12", "name": "helpers.ts", "subItems": [] },
+									{ "id": "13", "name": "constants.ts", "subItems": [] }
+								]
+							}
+						]
+					},
+					{
+						"id": "3",
+						"name": "public",
+						"subItems": [
+							{ "id": "7", "name": "index.html", "subItems": [] },
+							{ "id": "8", "name": "favicon.ico", "subItems": [] }
+						]
+					},
+					{
+						"id": "4",
+						"name": "config",
+						"subItems": [
+							{
+								"id": "9",
+								"name": "webpack",
+								"subItems": [
+									{ "id": "14", "name": "dev.config.js", "subItems": [] },
+									{ "id": "20", "name": "prod.config.js", "subItems": [] }
+								]
+							}
+						]
+					}
+				]
+			}
+		]
+	},
+	"case5_childrenKey_dotNotation_notRecursiveFalse": {
+		"description": "hierarchyType=childrenKey, notRecursive=false, childrenKey dot notation (data.items)",
+		"items": [
+			{
+				"id": "1",
+				"name": "Holding",
+				"data": {
+					"items": [
+						{
+							"id": "2",
+							"name": "Teknoloji Şirketi",
+							"data": {
+								"items": [
+									{
+										"id": "5",
+										"name": "Ar-Ge Birimi",
+										"data": {
+											"items": [
+												{ "id": "8", "name": "Proje Alpha", "data": { "items": [] } },
+												{ "id": "9", "name": "Proje Beta", "data": { "items": [] } },
+												{ "id": "10", "name": "Proje Gamma", "data": { "items": [] } }
+											]
+										}
+									},
+									{
+										"id": "6",
+										"name": "Satış Birimi",
+										"data": {
+											"items": [
+												{ "id": "11", "name": "Yurtiçi", "data": { "items": [] } },
+												{ "id": "12", "name": "Yurtdışı", "data": { "items": [] } }
+											]
+										}
+									}
+								]
+							}
+						},
+						{
+							"id": "3",
+							"name": "Finans Şirketi",
+							"data": {
+								"items": [
+									{
+										"id": "7",
+										"name": "Yatırım Birimi",
+										"data": {
+											"items": [
+												{ "id": "13", "name": "Hisse Senedi", "data": { "items": [] } },
+												{ "id": "14", "name": "Tahvil", "data": { "items": [] } }
+											]
+										}
+									}
+								]
+							}
+						},
+						{
+							"id": "4",
+							"name": "Lojistik Şirketi",
+							"data": { "items": [] }
+						}
+					]
+				}
+			}
+		]
+	},
+	"case6_noHierarchy": {
+		"description": "hierarchyType yok veya parentKey/childrenKey boş → düz liste",
+
+		"items": [
+			{ "id": "1", "label": "Seçenek A" },
+			{ "id": "2", "label": "Seçenek B" },
+			{ "id": "3", "label": "Seçenek C" }
+		]
+	},
+	"case7_hasItemExpr": {
+		"description": "hasItemExpr kullanımı → isLeaf hesaplaması hasChildren alanına göre yapılır",
+
+		"items": [
+			{ "id": "1", "name": "Genel Müdürlük", "parentId": null, "hasChildren": true },
+			{ "id": "2", "name": "Yazılım Departmanı", "parentId": "1", "hasChildren": true },
+			{ "id": "3", "name": "İK Departmanı", "parentId": "1", "hasChildren": true },
+			{ "id": "4", "name": "Pazarlama", "parentId": "1", "hasChildren": false },
+			{ "id": "5", "name": "Backend Ekibi", "parentId": "2", "hasChildren": true },
+			{ "id": "6", "name": "Frontend Ekibi", "parentId": "2", "hasChildren": true },
+			{ "id": "7", "name": "QA Ekibi", "parentId": "2", "hasChildren": false },
+			{ "id": "8", "name": "İşe Alım", "parentId": "3", "hasChildren": true },
+			{ "id": "9", "name": "Bordro", "parentId": "3", "hasChildren": false },
+			{ "id": "10", "name": "API Takımı", "parentId": "5", "hasChildren": true },
+			{ "id": "11", "name": "DB Takımı", "parentId": "5", "hasChildren": false },
+			{ "id": "12", "name": "React Takımı", "parentId": "6", "hasChildren": false },
+			{ "id": "13", "name": "Mobile Takımı", "parentId": "6", "hasChildren": false },
+			{ "id": "14", "name": "Stajyer Koordinasyonu", "parentId": "8", "hasChildren": false },
+			{ "id": "15", "name": "Mülakat Paneli", "parentId": "8", "hasChildren": false },
+			{ "id": "16", "name": "REST Servisleri", "parentId": "10", "hasChildren": false },
+			{ "id": "17", "name": "GraphQL Servisleri", "parentId": "10", "hasChildren": false }
+		]
+	},
+	"case8_emptyItems": {
+		"description": "Boş veya null items → boş array dönmeli",
+		"config": {
+			"hierarchyType": "parentKey",
+			"notRecursive": true,
+			"parentKey": "parentId",
+			"valueExpr": "id",
+			"displayFormat": "{{name}}"
+		},
+		"items": [],
+		"expectedTree": []
+	}
 }
